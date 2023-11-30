@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mon_conteneur:
+    build: .
+    container_name: TEST_KUBERNETES
+    volumes:
+      - .:/opt/mon_app
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    restart: always

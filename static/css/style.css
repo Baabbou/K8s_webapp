@@ -1,0 +1,17 @@
+body {
+    background-color: #222;
+}
+.navbar {
+    background-color: #333;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+}
+.title, p, label, legend, h5 {
+    color: #fff;
+}
